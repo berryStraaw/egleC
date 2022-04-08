@@ -1,0 +1,64 @@
+.main{
+    border-bottom: 2px solid #ccc;
+    height: auto;
+    padding:5vh 5vw;
+    font-size: 24px;
+    position: relative;
+}
+
+h1{
+    font-size: 72px;
+    text-align: center;
+}
+h2{
+    font-size: 48px;
+    margin-bottom: -1rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+h3{
+    font-size: 36px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+table{
+    width: 60vw;
+}
+
+h2#special{
+    margin-bottom: 1rem;
+}
+
+table, th, td {
+    border-bottom: 1px solid;
+    padding:5px;
+  }
+
+  td {
+    vertical-align: middle;
+  }
+
+
+.darkMain{
+    background-color: #2C2052;
+}
+
+.toggleb {
+    right: 5vw;
+    top: 2vh;
+  }
+
+@media screen and (max-width: 800px){
+    .toggleb {
+        right: 2vw;
+        top: 1vh;
+      }
+}
+
+@media screen and (max-width: 550px){
+    .main{
+        padding: 10vh 5vw;
+    }
+}

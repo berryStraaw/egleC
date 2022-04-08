@@ -1,0 +1,114 @@
+@media screen and (max-width: 1500px){
+    
+    .landing .main {
+      padding-top: 6.6vw;
+    }
+
+    .landing .main .heading{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1200px){
+    
+    html body div.landing div.main div.formBox div.info{
+        padding: 2rem 2.6vw;
+        width: 24vw;
+    }
+    html body div.landing div.main div.formBox div.form{
+        width: 48vw;
+        padding: 2rem 6.6vw;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    html body div.landing div.main div.formBox div.form{
+        width: 72vw;
+        padding: 2rem 6.6vw;
+    }
+    html body div.landing div.main div.formBox{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    html body div.landing div.main div.formBox div.info{
+        padding: 2rem 2.6vw;
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .toggleb{
+       right: 2vw;
+       top:12vh; 
+   }
+}
+
+@media screen and (max-width: 700px){
+    h3{
+        font-size: 36px;
+    }
+
+    h4{
+        font-size: 24px;
+    }
+
+    .formBox div.form form div.names{
+        flex-wrap: wrap;
+    }
+
+    #fname, #sname {
+        width: 100%;
+      }
+
+    .form input,
+    select,
+    textarea{
+        font-size: 16px;
+        height: 38px;
+    }
+
+    .formBox div.form form div.end{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .formBox div.form form div.end input#submit{
+        height: 50px;
+        font-size: 24px;
+    }
+
+    html body div.landing div.main div.formBox div.form form div.end div.endcopy{
+        margin-right: 2rem;
+    }
+
+    html body div.landing div.main div.formBox div.info{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 622px){
+    html body div.landing div.main div.formBox div.form form div.end div.endcopy{
+        
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    html body div.landing div.main div.formBox div.info{
+        width: 75vw;
+    }
+}
+@media screen and (max-width: 574px){
+    html body div.landing div.main div.formBox div.form form div.end div.endcopy{
+        margin-right: 0;
+        
+    }
+}
+
+@media screen and (max-width: 400px){
+    .toggleb{
+       right: 2vw;
+       top:11vh; 
+   }
+}

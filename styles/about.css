@@ -1,0 +1,84 @@
+.heading{
+    font-family: 'Cinzel', serif;
+    font-size: 72px;
+    margin-bottom: 150px;
+}
+
+.main{
+    justify-content: flex-start;
+    padding:100px;
+}
+
+.headingText{
+    width: 1070px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.process{
+    background-color: #F0DFAD;
+    color: #AA4465;
+    font-family: 'Raleway', sans-serif;
+    padding:4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.process .text{
+    position: absolute;
+    right:10vw;
+    font-size: 96px;
+    font-family: 'Cinzel', serif;
+}
+
+.process .text #our{
+    margin-left: -250px;
+}
+
+.process .steps .stepText .stepHead span#number{
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.step1{
+    margin-top: 100px;
+}
+
+.steps{
+    display: flex;
+    margin-bottom: 6rem;
+    align-items: center;
+    border-bottom: 2px solid #AA4465;
+}
+
+.steps:last-child{
+    border-bottom: none;
+}
+.process .stepHead{
+    font-size: 36px;
+}
+.process .stepText{
+    font-size: 24px;
+    width: 500px;
+}
+
+.process .steps .pictures{
+    margin:0 50px;
+}
+
+.process img{
+    margin-bottom: 4rem;
+}
+
+.darkProcess {
+    background-color: #2C2052;
+    color: #EBEBD3;
+  }
+
+.darkSteps {
+    border-bottom: 2px solid #EBEBD3;
+}

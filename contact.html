@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Egle couture</title>
+        <meta charset="UTF-8">
+        <script src="scripts/script.js" defer ></script>
+        <script data-cfasync="false" type="text/javascript" src="scripts/form-submission-handler.js" defer ></script>
+        <link rel="stylesheet" href="styles/styleReset.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/contactStyle.css">
+        <link rel="stylesheet" href="styles/responsiveness.css">
+        <link rel="stylesheet" href="styles/contactResponsiveness.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Monsieur+La+Doulaise&family=Raleway&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="landing">
+            <nav id="nav">
+                <ul class="hidNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                   <!--  <li><a href="contact.html">Contact</a></li> -->
+                </ul>
+                <ul class="topnav" id="myTopnav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html"><h4>Egle couture</h4></a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a></li>
+                </ul>
+            </nav>
+            <div class="main">
+                <div class="toggleb">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        
+                      </label>
+                </div>
+                <div class="heading">
+                    Get in touch
+                </div>
+                <div class="formBox">
+                    <div class="info">
+                        <h3>Information</h3>
+                        <div class="address infoBox">
+                            <h4 class="infoText">Address</h4>
+                            <div class="det">205 Woodstock Road,<br>
+                            BT6 8PQ ,<br>
+                            Belfast</div>
+                            
+                        </div>
+                        <div class="phone infoBox">
+                            <h4 class="infoText">Phone</h4>
+                            <div class="det">
+                                +44 7786 826 366
+                            </div>
+                            
+                        </div>
+                        <div class="email infoBox">
+                            <h4 class="infoText">Email</h4>
+                            <div class="det">eglecouture@gmail.com</div>
+                            
+                        </div>
+                        <div class="social infoBox">
+                            <h4 class="infoText">Social media</h4>
+                            <div class="det"><a href="https://facebook.com/eglecouture"> <img id="fb" src="assets/facebook.png" alt="Facebook"></a>
+                                <a href="https://instagram.com/EgleCouture"> <img id="insta" src="assets/instagram.png" alt="Instagram"></a></div>
+                           
+                        </div>
+                    </div>
+                    <div class="form">
+                        <h3>Use our form</h3>
+                        
+                        <form class="gform" method="POST"
+                        action="https://script.google.com/macros/s/AKfycbyimJekzTBuzgcWTw8zGV1SodnahomDp5k8GEpiNr2VrAydkjtb7GRtGgC9FjiiHXh-Kw/exec">
+                            <div class="names">
+                            <input type="text" id="fname" name="fname" placeholder="First name">
+                            <input type="text" id="sname" name="sname" placeholder="Last name"> 
+                            </div>
+                            
+
+                            <input type="email" id="email" name="email" placeholder="Email"><br>
+
+                            
+                            <select name="subject" id="subjcet" >
+                                <option value="" disabled selected>subject</option>
+                                <option value="couture">Couture</option>
+                                <option value="alt">Alterations</option>
+                                <option value="cnc">Curtains and cushions</option>
+                                <option value="patterns">Pattern making</option>
+                                <option value="memory">Memory toys</option>
+                                <option value="shoes">Baby shoes</option>
+                                <option value="other">Other</option>
+                              </select><br>
+
+                            <textarea rows="5" cols="60" id="body" name="message" placeholder="Your question"></textarea>
+
+                            <div class="end">
+                                <input id="submit" type="submit" value="Submit">
+                            </div>
+                            <div style="display:none" class="thankyou_message">
+                            <!-- You can customize the thankyou message by editing the code below -->
+                            <h2><em>Thank you</em> for contacting us! We will get back to you soon!
+                            </h2>
+                           </div>
+                        </form>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="half">
+                <a href="#" id="back">Back to top</a>
+                <div class="connections">
+                    Stay connected<br>
+                    <a href="https://facebook.com/eglecouture"> <img src="assets/facebookW.png" alt="Facebook"></a>
+                    <a href="https://instagram.com/EgleCouture"> <img src="assets/instagramW.png" alt="Instagram"></a>
+                </div>
+                <div class="hours">
+                    <b>Work hours:</b><br>
+                    Tuesday-Saturday 10am-6pm<br>
+                    <br>
+                    <b>t:</b> +44 7786286366 <br>
+                    <b>e:</b> eglecouture@gmail.com
+                    
+                </div>
+            </div>
+            <div class="middle">
+                <div class="text">
+                  <h4>Our studio</h4>
+                <!-- <button id="touch">Get in touch</button> -->
+                </div>
+                
+                <div class="mapouter"><iframe width="800" height="750" id="gmap_canvas" src="https://maps.google.com/maps?q=205%20woodstock%20road%20belfast&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+                <div class="details">
+                    
+                </div>
+                
+            </div>
+
+                
+                
+        </footer>
+    </body>
+</html>

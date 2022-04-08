@@ -1,0 +1,168 @@
+@media screen and (max-width: 1800px){
+    
+    .landing .main {
+      padding: 11vw;
+      padding-bottom: 0;
+    }
+
+    html body div.landing div.main {
+        text-align: center;
+    }
+
+    .imageBox {
+        width: 27vw;
+        height: 27vw;
+      }
+
+    .imageBox img{
+        width: 27vw;
+    }
+}
+@media screen and (max-width: 1350px) and (min-width:1201px){
+    .imageBox .hiddenText{
+        font-size: 1.7vw;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    html body div.landing div.main div.headingText{
+        width: 80vw;
+    }
+
+    .imageBox {
+        width: 40vw;
+        height: 40vw;
+      }
+
+    .imageBox img{
+        width: 40vw;
+    }
+    html body div.serviceBox{
+        flex-wrap: wrap;
+    }
+    .serviceBox2 {
+        margin-right: 0;
+      }
+
+    .serviceBox2 .patterns {
+        margin-bottom: 4rem;
+      }
+
+    .serviceBox .memtoys {
+        margin-top: 0;
+        margin-bottom: 50px;
+      }
+
+    .imageBox .hiddenText{
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .toggleb{
+       right: 2vw;
+       top:2vh; 
+   }
+   .main{
+       min-height: 650px;
+   }
+}
+
+@media screen and (max-width: 950px){
+
+   .main{
+       min-height: 700px;
+   }
+}
+
+@media screen and (max-width: 850px){
+
+    .main{
+        min-height: 800px;
+    }
+ }
+
+ @media screen and (max-width: 770px){
+    .main{
+        min-height: 850px;
+    }
+ }
+
+ @media screen and (max-width: 650px){
+    .main{
+        min-height: 90vh;
+    }
+ }
+@media screen and (max-width: 700px){
+    html body div.landing div.main div.heading{
+        font-size: 10.2vw;
+        margin-bottom: 21vw;
+    }
+
+    html body div.landing div.main div.headingText{
+        font-size: 5.1vw;
+    }
+
+    .imageBox div.text{
+        font-size: 5.1vw;
+    }
+
+    .imageBox .hiddenText{
+        font-size: 2.3vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .imageBox {
+        width: 66vw;
+        height: 66vw;
+      }
+
+    .imageBox img{
+        width: 66vw;
+    }
+
+    .serviceBox1 {
+        margin-right: 0;
+      }
+
+    .serviceBox2 {
+    margin-top: 4rem;
+    }
+    .imageBox .hiddenText{
+        font-size: 4.3vw;
+    }
+
+    .main a {
+        height: 8.3vw;
+        font-size: 4vw;
+        line-height: 8.3vw;
+      }
+}
+
+@media screen and (max-width: 470px){
+    html body div.landing div.main div.heading{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .toggleb{
+       right: 2vw;
+       top:1vh; 
+   }
+}
+
+@media screen and (max-width: 315px){
+    html body div.landing div.main div.headingText{
+        font-size: 16px;
+    }
+
+    .imageBox div.text{
+        font-size: 16px;
+    }
+}
+
+
+
+
