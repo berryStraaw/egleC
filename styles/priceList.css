@@ -40,23 +40,6 @@ table, th, td {
     vertical-align: middle;
   }
 
-
-.darkMain{
-    background-color: #2C2052;
-}
-
-.toggleb {
-    right: 5vw;
-    top: 2vh;
-  }
-
-@media screen and (max-width: 800px){
-    .toggleb {
-        right: 2vw;
-        top: 1vh;
-      }
-}
-
 @media screen and (max-width: 550px){
     .main{
         padding: 10vh 5vw;

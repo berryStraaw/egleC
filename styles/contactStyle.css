@@ -122,43 +122,6 @@ select{
     font-size: 24px;
 }
 
-.switch{
-    border:none;
-}
-
-.slider:before {
-    background-color: #8F5C38;
-  }
-
-.darkMain{
-    background-color: #2C2052;
-    color: #EBEBD3;
-}
-
-.darkInfo, .darkForm {
-    background-color: #231942;
-  }
-
-
-.form .darkInput, .darkTextarea , .darkSelect {
-    background-color: #372865;
-    color: #EBEBD3;
-}
-
-.darkSlider:before {
-    background-color: #F0DFAD;
-  }
-
-
-
-  nav .hidNav{
-    background-color: #8F5C38;
-}
-
 .topnav a.icon {
     color: #EBEBD3;
-}
-
-nav .darkNavH{
-    background-color: #231942;
 }

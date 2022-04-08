@@ -101,14 +101,6 @@
     color:rgba(235, 235, 211,0);
 }​
 
-.darkServiceBox{
-    background-color: #2C2052;
-}
-
-html body div.serviceBox.darkServiceBox{
-    background-color: #2C2052;
-}
-
 .main{
     position: relative;
 }
@@ -136,17 +128,3 @@ html body div.serviceBox.darkServiceBox{
 .main a.priceBtn:focus { text-decoration: none; color:#AA4465; }
 .main a.priceBtn:active { text-decoration: none; color:#AA4465; }
 .main a.priceBtn:visited{ text-decoration: none; color:#AA4465; }
-
-  .toggleb {
-    top: 5vh;
-  }
-
-  .main a.darkPriceButton{
-    color: #EBEBD3;
-    border: 2px solid   #EBEBD3;
-    background-color: #9F86C0;
-}
-.main a.darkPriceButton:hover { text-decoration: none; color:#EBEBD3; }
-.main a.darkPriceButton:focus { text-decoration: none; color:#EBEBD3; }
-.main a.darkPriceButton:active { text-decoration: none; color:#EBEBD3; }
-.main a.darkPriceButton:visited{ text-decoration: none; color:#EBEBD3; }

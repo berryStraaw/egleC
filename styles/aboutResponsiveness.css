@@ -58,10 +58,6 @@
     html body div.process div.text span#our{
         margin-left: -15vw;
     }
-    .toggleb{
-       right: 2vw;
-       top:12vh; 
-   }
 }
 
 @media screen and (max-width: 700px){
@@ -104,14 +100,6 @@
         
       }
 }
-
-@media screen and (max-width: 400px){
-    .toggleb{
-       right: 2vw;
-       top:11vh; 
-   }
-}
-
 
 @media screen and (max-width: 315px){
     html body div.landing div.main div.headingText{
